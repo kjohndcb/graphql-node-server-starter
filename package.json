@@ -1,0 +1,23 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm src/app.js",
+    "dev": "NODE_ENV=development nodemon -r esm src/app.js --ignore db.json "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.13.1",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "lowdb": "^1.0.0",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.4"
+  }
+}
