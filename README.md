@@ -1,4 +1,4 @@
-# React Static Starter
+# GraphQL Node Server Starter
 
 A simple GraphQL Node server for quick prototyping.
 
